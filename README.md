@@ -13,13 +13,13 @@ Welcome to the **Java Design Patterns Examples** repository! This project demons
 - [Contributing](#contributing)
 - [License](#license)
 
-## Patterns Implemented 🛠️
+## <a name="patterns-implemented">Patterns Implemented 🛠️</a>
 
 1. **Singleton Pattern**: Ensures a class has only one instance and provides a global point of access to it.
 2. **Decorator Pattern**: Allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.
 3. **Observer Pattern**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
-## Singleton Pattern 🔒
+## <a name="singleton-pattern">Singleton Pattern 🔒</a>
 
 The Singleton pattern is demonstrated through a database connection manager.
 
@@ -32,7 +32,7 @@ The Singleton pattern is demonstrated through a database connection manager.
   db2.query("INSERT INTO users VALUES (1, 'John')");
   ```
 
-## Decorator Pattern 🎨
+## <a name="decorator-pattern">Decorator Pattern 🎨</a>
 
 The Decorator pattern is demonstrated through a customizable coffee shop.
 
@@ -45,7 +45,7 @@ The Decorator pattern is demonstrated through a customizable coffee shop.
   System.out.println(coffee.getDescription() + " $" + coffee.getCost());
   ```
 
-## Observer Pattern 👀
+## <a name="observer-pattern">Observer Pattern 👀</a>
 
 The Observer pattern is demonstrated through a weather monitoring system.
 
@@ -58,7 +58,7 @@ The Observer pattern is demonstrated through a weather monitoring system.
   weatherStation.setTemperature(80);
   ```
 
-## Code Examples and Insights 🧠
+## <a name="code-examples-and-insights">Code Examples and Insights 🧠</a>
 
 <details>
 <summary><code>Singleton Pattern Overview 🔒🌐</code></summary>
@@ -607,7 +607,7 @@ When the `Main` class is executed, it follows these steps to generate the output
 
 </details>
 
-## How to Run 🏃‍♂️
+## <a name="how-to-run">How to Run 🏃‍♂️</a>
 
 1. Clone the repository:
    ```sh
@@ -623,10 +623,10 @@ When the `Main` class is executed, it follows these steps to generate the output
    java Main
    ```
 
-## Contributing 🤝
+## <a name="contributing">Contributing 🤝</a>
 
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 
-## License 📄
+## <a name="license">License 📄</a>
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
